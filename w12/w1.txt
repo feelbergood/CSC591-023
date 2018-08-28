@@ -1,0 +1,114 @@
+
+-----| test5 |-----------------------
+# Whitespace Formatting
+# pass
+
+-----| test6 |-----------------------
+# Modules
+# pass
+
+-----| test7 |-----------------------
+# Arithmetic
+# pass
+
+-----| test8 |-----------------------
+# Functions
+# pass
+
+-----| test9 |-----------------------
+# Strings
+# pass
+
+-----| test10 |-----------------------
+# Exceptions
+# pass
+
+-----| test11 |-----------------------
+# Lists
+# pass
+
+-----| test12 |-----------------------
+# Lists Cont
+# pass
+
+-----| test13 |-----------------------
+# Tuples
+# pass
+
+-----| test14 |-----------------------
+# Dictionaries
+# pass
+
+-----| test15 |-----------------------
+# defaultdict
+# pass
+
+-----| test16 |-----------------------
+# Counter
+# pass
+
+-----| test17 |-----------------------
+# Sets
+# pass
+
+-----| test18 |-----------------------
+# Control Flow
+# pass
+
+-----| test19 |-----------------------
+# Truthiness
+# pass
+
+-----| test20 |-----------------------
+# Truthiness Cont
+# pass
+
+-----| test22 |-----------------------
+# Sorting
+# pass
+
+-----| test23 |-----------------------
+# List Comprehensions
+# pass
+
+-----| test24 |-----------------------
+# Generators and Iterators
+# pass
+
+-----| test25 |-----------------------
+# Randomness
+# pass
+
+-----| test26 |-----------------------
+# Regular Expression
+# pass
+
+-----| test27 |-----------------------
+# Object-Oriented Programming
+# pass
+
+-----| test28 |-----------------------
+# Functional Tools
+# pass
+
+-----| test29 |-----------------------
+# Functional Tools --- map, reduce, filter
+# pass
+
+-----| test30 |-----------------------
+# enumerate
+# pass
+
+-----| test31 |-----------------------
+# zip and Argument Unpacking
+# pass
+
+-----| test32 |-----------------------
+# args and kwargs
+# pass
+
+-----| test33 |-----------------------
+# args and kwargs cont
+# pass
+
+# pass= 28 fail= 0 %pass = 100%
