@@ -68,23 +68,26 @@ def lines(s):
     return s.splitlines()
 
 def rows(src):
-  """Kill bad characters. If line ends in ',' 
-   then join to next. Skip blank lines."""
+    """Kill bad characters. If line ends in ',' 
+    then join to next. Skip blank lines."""
+    li = []
+    # Kill bad characters(comments here)
+    for line in src:
+        li.append(line.split('#', 1)[0])
+    # Join to next if endswith ','
+    
 
 def cols(src):
-  """ If a column name on row1 contains '?', 
-  then skip over that column."""
+    """ If a column name on row1 contains '?', 
+    then skip over that column."""
 
 def prep(src):
-  """ If a column name on row1 contains '$', 
-  coerce strings in that column to a float."""
+    """ If a column name on row1 contains '$', 
+    coerce strings in that column to a float."""
 
 def ok0(s):
-  for row in prep(cols(rows(lines(s)))):
-    print(row)
-
-@O.k
-def ok3(): lines(DATA1)
+    for row in prep(cols(rows(lines(s)))):
+        print(row)
 
 @O.k
 def ok1(): ok0(DATA1)
