@@ -1,0 +1,36 @@
+
+-----| ok1 |-----------------------
+['outlook', '$temp', 'windy', 'play']
+['sunny', '85', 'FALSE', 'no']
+['sunny', '80', 'TRUE', 'no']
+['overcast', '83', 'FALSE', 'yes']
+['rainy', '70', 'FALSE', 'yes']
+['rainy', '68', 'FALSE', 'yes']
+['rainy', '65', 'TRUE', 'no']
+['overcast', '64', 'TRUE', 'yes']
+['sunny', '72', 'FALSE', 'no']
+['sunny', '69', 'FALSE', 'yes']
+['rainy', '75', 'FALSE', 'yes']
+['sunny', '75', 'TRUE', 'yes']
+['overcast', '100', '90', 'TRUE', 'yes']
+['overcast', '81', 'FALSE', 'yes']
+['rainy', '71', 'TRUE', 'no']
+# pass
+
+-----| ok2 |-----------------------
+['outlook', '$temp', 'windy', 'play']
+['sunny', '85', 'FALSE', 'no']
+['sunny', '80', 'TRUE', 'no']
+['overcast', '83', 'FALSE', 'yes']
+['rainy', '70', 'FALSE', 'yes']
+['rainy', '68', 'FALSE', 'yes']
+['rainy', '65', 'TRUE', 'no']
+['overcast', '64', 'TRUE', 'yes']
+['sunny', '72', 'FALSE', 'no']
+['sunny', '69', 'FALSE', 'yes']
+['rainy', '75', 'FALSE', 'yes']
+['sunny', '75', 'TRUE', 'yes']
+['overcast', '100', '90', 'TRUE', 'yes']
+['overcast', '81', 'FALSE', 'yes']
+['rainy', '71', 'TRUE', 'no']
+# pass

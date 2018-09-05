@@ -70,20 +70,49 @@ def lines(s):
 def rows(src):
     """Kill bad characters. If line ends in ',' 
     then join to next. Skip blank lines."""
-    li = []
-    # Kill bad characters(comments here)
+    my_list = []
+    # Kill bad characters(comments here) and skip blank spaces
     for line in src:
-        li.append(line.split('#', 1)[0])
+        my_list.append(line.split('#', 1)[0].strip())
     # Join to next if endswith ','
-    
+    i = 0
+    while i < len(my_list)-1:
+        if my_list[i].endswith(','):
+            my_list[i] += my_list.pop(i+1)
+        else:
+            i += 1
+    # Remove empty lines
+    my_list = list(filter(None, my_list))
+    return my_list
 
 def cols(src):
     """ If a column name on row1 contains '?', 
     then skip over that column."""
+    result = []
+    skip_cols = []
+    for index, col in enumerate(src[0].split(',')):
+        if col.find('?') > -1:
+            skip_cols.append(index)
+    for row in src:
+        row_list = row.split(',')
+        for skip_col in skip_cols:
+            del row_list[skip_col]
+        result.append(row_list)
+    return result
 
 def prep(src):
     """ If a column name on row1 contains '$', 
     coerce strings in that column to a float."""
+    result = []
+    float_cols = []
+    for index, col in enumerate(src[0]):
+        if col.find('$') > -1:
+            float_cols.append(index)
+    for row in src:
+        for float_col in float_cols:
+            float_col = float(float_col)
+        result.append(row)
+    return result
 
 def ok0(s):
     for row in prep(cols(rows(lines(s)))):
