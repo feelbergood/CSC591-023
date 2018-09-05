@@ -13,7 +13,7 @@ sunny,72,95,FALSE,no
 sunny,69,70,FALSE,yes
 rainy,75,80,FALSE,yes
 sunny,75,70,TRUE,yes
-overcast,100,25,90,TRUE,yes
+overcast,100,90,TRUE,yes
 overcast,81,75,FALSE,yes
 rainy,71,91,TRUE,no"""
 
@@ -38,7 +38,7 @@ DATA2 ="""
     rainy,75,80,FALSE,yes
           sunny,
                 75,70,TRUE,yes
-    overcast,100,25,90,TRUE,yes
+    overcast,100,90,TRUE,yes
     overcast,81,75,FALSE,yes # unique day
     rainy,71,91,TRUE,no"""
 
