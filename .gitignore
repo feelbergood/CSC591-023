@@ -1,2 +1,2 @@
 .vscode
-w3/__pycache__
+*/__pycache__
